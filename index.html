@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Προσθήκη νέας εργασίας..." required>
+            <button type="submit">Προσθήκη</button>
+        </form>
+        <div class="filters">
+            <button id="all-btn">Όλες</button>
+            <button id="completed-btn">Ολοκληρωμένες</button>
+            <button id="pending-btn">Σε Εκκρεμότητα</button>
+        </div>
+        <button id="theme-toggle">Dark Mode</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
